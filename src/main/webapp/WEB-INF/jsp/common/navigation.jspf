@@ -1,0 +1,18 @@
+<div>
+<nav role="navigation" class="navbar navbar-default">
+<div class=" ">
+<a href="https://google.com" class="navbar-brand">Google</a>
+</div>
+
+<div class="navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href="/user/register">Register</a></li>
+<li ><a href="/list-todo">Todos</a></li>
+</ul>
+<ul class="nav navbar-right navbar-nav">
+<li><a href="/logout">Log Out</a>
+</ul>
+</div>
+
+</nav>
+</div>

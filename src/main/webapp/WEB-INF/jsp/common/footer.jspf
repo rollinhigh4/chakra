@@ -1,0 +1,17 @@
+<script src="/webjars/jquery/1.9.1/jquery.min.js"></script>
+<script src="/webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+
+$(document).ready(function () {
+ 
+ 	var path = window.location.pathname; // full url 
+	console.log(path);
+
+	$('a[href="'+ path +'"]').parent().addClass('active');
+});
+
+
+
+</script>
+</body>
+</html>
