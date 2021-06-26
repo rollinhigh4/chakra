@@ -40,5 +40,7 @@ public class QuestionController {
 		model.put("qna", riddleRepository.findAll());
 		return "list-qna";
 	}
+	
+	
 
 }
